@@ -1,0 +1,25 @@
+.color-swatch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.color-swatch span {
+  transition: 0.3s ease;
+}
+
+.color-swatch span:hover {
+  background-color: var(--swatch-color);
+  cursor: pointer;
+}
+
+.swatch {
+  transition: 0.3s ease;
+}
+
+.swatch:hover {
+  border-color: transparent;
+}

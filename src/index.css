@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #202020;
+  color: white;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4,
+p,
+span {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  width: 100%;
+}
