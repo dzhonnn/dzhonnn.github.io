@@ -1,10 +1,6 @@
 import './WallpapersExplorerComponent.css'
 import { useEffect, useState } from 'react'
 
-interface WallpapersExplorerProps {
-  folder: string
-}
-
 type WallpaperImage = {
   name: string
   url: string
